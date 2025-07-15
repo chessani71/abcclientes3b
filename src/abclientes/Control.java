@@ -9,7 +9,6 @@ public class Control implements ActionListener{
         this.modelo=modelo;
         this.vista.btnAlta.addActionListener(this);
     }
-    @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(this.vista.btnAlta)){
             this.modelo.conectar();
