@@ -8,6 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class BD {
+    //Clase BD
 public Connection conectar(){
     Connection conexion=null;
     try {
